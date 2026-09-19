@@ -1,0 +1,2 @@
+# gitReady
+gitready project
