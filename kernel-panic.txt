@@ -1,0 +1,1260 @@
+Jul 14 17:14:27 Babayaga kernel: Linux version 7.0.0-14-generic (buildd@lcy02-amd64-073) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #14~24.04.3-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 24 13:55:39 UTC 2 (Ubuntu 7.0.0-14.14~24.04.3-generic 7.0.0)
+Jul 14 17:14:27 Babayaga kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-7.0.0-14-generic root=UUID=66a2c3cc-7faa-45ab-b24e-f5a01a1b022a ro quiet splash
+Jul 14 17:14:27 Babayaga kernel: KERNEL supported cpus:
+Jul 14 17:14:27 Babayaga kernel:   Intel GenuineIntel
+Jul 14 17:14:27 Babayaga kernel:   AMD AuthenticAMD
+Jul 14 17:14:27 Babayaga kernel:   Hygon HygonGenuine
+Jul 14 17:14:27 Babayaga kernel:   Centaur CentaurHauls
+Jul 14 17:14:27 Babayaga kernel:   zhaoxin   Shanghai  
+Jul 14 17:14:27 Babayaga kernel: BIOS-provided physical RAM map:
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000000000000-0x0000000000057fff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000000058000-0x0000000000058fff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000000059000-0x000000000008bfff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000000008c000-0x00000000000fffff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000040000000-0x00000000403fffff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000040400000-0x000000007f259fff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000007f25a000-0x000000007f25bfff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000007f25c000-0x000000007ff1afff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000007ff1b000-0x000000007ff1bfff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000007ff1c000-0x000000008093afff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008093b000-0x0000000080949fff]  ACPI data
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008094a000-0x0000000084fa6fff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000084fa7000-0x0000000084fa7fff]  ACPI NVS
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000084fa8000-0x0000000084fa8fff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000084fa9000-0x000000008e90dfff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008e90e000-0x000000008ff2afff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008ff2b000-0x000000008ff96fff]  ACPI NVS
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008ff97000-0x000000008fffefff]  ACPI data
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x000000008ffff000-0x000000008fffffff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000090000000-0x0000000097ffffff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [gap 0x0000000098000000-0x00000000985fffff]
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000098600000-0x000000009c7fffff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [gap 0x000000009c800000-0x00000000f7ffffff]
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [gap 0x00000000fc000000-0x00000000fe00ffff]
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x00000000fe010000-0x00000000fe010fff]  device reserved
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [gap 0x00000000fe011000-0x00000000ffffffff]
+Jul 14 17:14:27 Babayaga kernel: BIOS-e820: [mem 0x0000000100000000-0x00000004617fffff]  System RAM
+Jul 14 17:14:27 Babayaga kernel: NX (Execute Disable) protection: active
+Jul 14 17:14:27 Babayaga kernel: APIC: Static calls initialized
+Jul 14 17:14:27 Babayaga kernel: efi: EFI v2.5 by Lenovo
+Jul 14 17:14:27 Babayaga kernel: efi: TPMFinalLog=0x8ff8f000 SMBIOS=0x8f069000 SMBIOS 3.0=0x8f066000 ACPI=0x8fffe000 ACPI 2.0=0x8fffe014 ESRT=0x8eac4000 MEMATTR=0x899ab018 MOKvar=0x8eaaf000 INITRD=0x8510d298 RNG=0x8ffa3018 TPMEventLog=0x8093b018 
+Jul 14 17:14:27 Babayaga kernel: random: crng init done
+Jul 14 17:14:27 Babayaga kernel: efi: Remove mem56: MMIO range=[0xf8000000-0xfbffffff] (64MB) from e820 map
+Jul 14 17:14:27 Babayaga kernel: e820: remove [mem 0xf8000000-0xfbffffff] device reserved
+Jul 14 17:14:27 Babayaga kernel: efi: Not removing mem57: MMIO range=[0xfe010000-0xfe010fff] (4KB) from e820 map
+Jul 14 17:14:27 Babayaga kernel: SMBIOS 3.0.0 present.
+Jul 14 17:14:27 Babayaga kernel: DMI: LENOVO 20L8S14R00/20L8S14R00, BIOS N22ET85W (1.62 ) 09/05/2025
+Jul 14 17:14:27 Babayaga kernel: DMI: Memory slots populated: 2/2
+Jul 14 17:14:27 Babayaga kernel: secureboot: Secure boot disabled
+Jul 14 17:14:27 Babayaga kernel: tsc: Detected 1900.000 MHz processor
+Jul 14 17:14:27 Babayaga kernel: tsc: Detected 1899.950 MHz TSC
+Jul 14 17:14:27 Babayaga kernel: e820: update [mem 0x00000000-0x00000fff] System RAM ==> device reserved
+Jul 14 17:14:27 Babayaga kernel: e820: remove [mem 0x000a0000-0x000fffff] System RAM
+Jul 14 17:14:27 Babayaga kernel: last_pfn = 0x461800 max_arch_pfn = 0x400000000
+Jul 14 17:14:27 Babayaga kernel: MTRR map: 4 entries (3 fixed + 1 variable; max 23), built from 10 variable MTRRs
+Jul 14 17:14:27 Babayaga kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Jul 14 17:14:27 Babayaga kernel: last_pfn = 0x90000 max_arch_pfn = 0x400000000
+Jul 14 17:14:27 Babayaga kernel: esrt: Reserving ESRT space from 0x000000008eac4000 to 0x000000008eac40b0.
+Jul 14 17:14:27 Babayaga kernel: Using GB pages for direct mapping
+Jul 14 17:14:27 Babayaga kernel: secureboot: Secure boot disabled
+Jul 14 17:14:27 Babayaga kernel: RAMDISK: [mem 0x73c3e000-0x78f32fff]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Early table checksum verification disabled
+Jul 14 17:14:27 Babayaga kernel: ACPI: RSDP 0x000000008FFFE014 000024 (v02 LENOVO)
+Jul 14 17:14:27 Babayaga kernel: ACPI: XSDT 0x000000008FFAC188 00011C (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: FACP 0x000000008FFE1000 0000F4 (v05 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: DSDT 0x000000008FFBA000 022090 (v02 LENOVO SKL      00000000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: FACS 0x000000008FF3B000 000040
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFE9000 01320E (v02 LENOVO DptfTabl 00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFE8000 0003DB (v02 LENOVO Tpm2Tabl 00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: TPM2 0x000000008FFE7000 000034 (v03 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: UEFI 0x000000008FF50000 000042 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFE3000 0030E4 (v02 LENOVO SaSsdt   00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFE2000 0005C6 (v02 LENOVO PerfTune 00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: HPET 0x000000008FFE0000 000038 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: APIC 0x000000008FFDF000 00012C (v03 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: MCFG 0x000000008FFDE000 00003C (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: ECDT 0x000000008FFDD000 000053 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFB8000 001CA3 (v02 LENOVO RVP7Rtd3 00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFB6000 00163C (v02 LENOVO ProjSsdt 00000010 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: BOOT 0x000000008FFB5000 000028 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: BATB 0x000000008FFB4000 00004A (v02 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SLIC 0x000000008FFB3000 000176 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFB1000 0017AE (v02 LENOVO CpuSsdt  00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFB0000 00056D (v02 LENOVO CtdpB    00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFAF000 000678 (v02 LENOVO UsbCTabl 00001000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: LPIT 0x000000008FFAE000 000094 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: WSMT 0x000000008FFAD000 000028 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFFD000 0001D8 (v02 LENOVO HdaDsp   00000000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFAB000 0004FC (v02 LENOVO TbtTypeC 00000000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0x000000008FFAA000 0002D1 (v02 LENOVO Wwan     00000001 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: DBGP 0x000000008FFA9000 000034 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: DBG2 0x000000008FFA8000 000054 (v00 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: MSDM 0x000000008FFA7000 000055 (v03 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: DMAR 0x000000008FFA6000 0000A8 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: ASF! 0x000000008FFA5000 0000A0 (v32 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: FPDT 0x000000008FFA4000 000044 (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: UEFI 0x000000008FF38000 00013E (v01 LENOVO TP-N22   00001620 PTEC 00000002)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving FACP table memory at [mem 0x8ffe1000-0x8ffe10f3]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving DSDT table memory at [mem 0x8ffba000-0x8ffdc08f]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving FACS table memory at [mem 0x8ff3b000-0x8ff3b03f]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffe9000-0x8fffc20d]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffe8000-0x8ffe83da]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving TPM2 table memory at [mem 0x8ffe7000-0x8ffe7033]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving UEFI table memory at [mem 0x8ff50000-0x8ff50041]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffe3000-0x8ffe60e3]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffe2000-0x8ffe25c5]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving HPET table memory at [mem 0x8ffe0000-0x8ffe0037]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving APIC table memory at [mem 0x8ffdf000-0x8ffdf12b]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving MCFG table memory at [mem 0x8ffde000-0x8ffde03b]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving ECDT table memory at [mem 0x8ffdd000-0x8ffdd052]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffb8000-0x8ffb9ca2]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffb6000-0x8ffb763b]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving BOOT table memory at [mem 0x8ffb5000-0x8ffb5027]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving BATB table memory at [mem 0x8ffb4000-0x8ffb4049]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SLIC table memory at [mem 0x8ffb3000-0x8ffb3175]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffb1000-0x8ffb27ad]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffb0000-0x8ffb056c]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffaf000-0x8ffaf677]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving LPIT table memory at [mem 0x8ffae000-0x8ffae093]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving WSMT table memory at [mem 0x8ffad000-0x8ffad027]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8fffd000-0x8fffd1d7]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffab000-0x8ffab4fb]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving SSDT table memory at [mem 0x8ffaa000-0x8ffaa2d0]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving DBGP table memory at [mem 0x8ffa9000-0x8ffa9033]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving DBG2 table memory at [mem 0x8ffa8000-0x8ffa8053]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving MSDM table memory at [mem 0x8ffa7000-0x8ffa7054]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving DMAR table memory at [mem 0x8ffa6000-0x8ffa60a7]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving ASF! table memory at [mem 0x8ffa5000-0x8ffa509f]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving FPDT table memory at [mem 0x8ffa4000-0x8ffa4043]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Reserving UEFI table memory at [mem 0x8ff38000-0x8ff3813d]
+Jul 14 17:14:27 Babayaga kernel: No NUMA configuration found
+Jul 14 17:14:27 Babayaga kernel: Faking a node at [mem 0x0000000000000000-0x00000004617fffff]
+Jul 14 17:14:27 Babayaga kernel: NODE_DATA(0) allocated [mem 0x4617d5280-0x4617fffff]
+Jul 14 17:14:27 Babayaga kernel: Reserving Intel graphics memory at [mem 0x9a800000-0x9c7fffff]
+Jul 14 17:14:27 Babayaga kernel: ACPI: PM-Timer IO Port: 0x1808
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+Jul 14 17:14:27 Babayaga kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+Jul 14 17:14:27 Babayaga kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jul 14 17:14:27 Babayaga kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Jul 14 17:14:27 Babayaga kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jul 14 17:14:27 Babayaga kernel: TSC deadline timer available
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Max. logical packages:   1
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Max. logical nodes:      1
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Num. nodes per package:  1
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Max. logical dies:       1
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Max. dies per package:   1
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Max. threads per core:   2
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Num. cores per package:     4
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Num. threads per package:   8
+Jul 14 17:14:27 Babayaga kernel: CPU topo: Allowing 8 present CPUs plus 0 hotplug CPUs
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x00058000-0x00058fff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x0008c000-0x000fffff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x40000000-0x403fffff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x7f25a000-0x7f25bfff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x7ff1b000-0x7ff1bfff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x8093b000-0x80949fff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x84fa7000-0x84fa8fff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x8e90e000-0x8fffefff]
+Jul 14 17:14:27 Babayaga kernel: PM: hibernation: Registered nosave memory: [mem 0x90000000-0xffffffff]
+Jul 14 17:14:27 Babayaga kernel: [gap 0x9c800000-0xfe00ffff] available for PCI devices
+Jul 14 17:14:27 Babayaga kernel: Booting paravirtualized kernel on bare hardware
+Jul 14 17:14:27 Babayaga kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Jul 14 17:14:27 Babayaga kernel: Zone ranges:
+Jul 14 17:14:27 Babayaga kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jul 14 17:14:27 Babayaga kernel:   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Jul 14 17:14:27 Babayaga kernel:   Normal   [mem 0x0000000100000000-0x00000004617fffff]
+Jul 14 17:14:27 Babayaga kernel:   Device   empty
+Jul 14 17:14:27 Babayaga kernel: Movable zone start for each node
+Jul 14 17:14:27 Babayaga kernel: Early memory node ranges
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000000001000-0x0000000000057fff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000000059000-0x000000000008bfff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000000100000-0x000000003fffffff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000040400000-0x000000007f259fff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x000000007f25c000-0x000000007ff1afff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x000000007ff1c000-0x000000008093afff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x000000008094a000-0x0000000084fa6fff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000084fa9000-0x000000008e90dfff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x000000008ffff000-0x000000008fffffff]
+Jul 14 17:14:27 Babayaga kernel:   node   0: [mem 0x0000000100000000-0x00000004617fffff]
+Jul 14 17:14:27 Babayaga kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000004617fffff]
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA: 116 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 1024 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 2 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 15 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 2 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone DMA32: 5873 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: On node 0, zone Normal: 26624 pages in unavailable ranges
+Jul 14 17:14:27 Babayaga kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+Jul 14 17:14:27 Babayaga kernel: percpu: Embedded 85 pages/cpu s225280 r8192 d114688 u524288
+Jul 14 17:14:27 Babayaga kernel: pcpu-alloc: s225280 r8192 d114688 u524288 alloc=1*2097152
+Jul 14 17:14:27 Babayaga kernel: pcpu-alloc: [0] 0 1 2 3 [0] 4 5 6 7 
+Jul 14 17:14:27 Babayaga kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-7.0.0-14-generic root=UUID=66a2c3cc-7faa-45ab-b24e-f5a01a1b022a ro quiet splash
+Jul 14 17:14:27 Babayaga kernel: Unknown kernel command line parameters "splash", will be passed to user space.
+Jul 14 17:14:27 Babayaga kernel: printk: log buffer data + meta data: 262144 + 1114112 = 1376256 bytes
+Jul 14 17:14:27 Babayaga kernel: Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: software IO TLB: area num 8.
+Jul 14 17:14:27 Babayaga kernel: Fallback order for Node 0: 0 
+Jul 14 17:14:27 Babayaga kernel: Built 1 zonelists, mobility grouping on.  Total pages: 4127877
+Jul 14 17:14:27 Babayaga kernel: Policy zone: Normal
+Jul 14 17:14:27 Babayaga kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+Jul 14 17:14:27 Babayaga kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+Jul 14 17:14:27 Babayaga kernel: Kernel/User page tables isolation: enabled
+Jul 14 17:14:27 Babayaga kernel: ftrace: allocating 63788 entries in 252 pages
+Jul 14 17:14:27 Babayaga kernel: ftrace: allocated 252 pages with 6 groups
+Jul 14 17:14:27 Babayaga kernel: Dynamic Preempt: lazy
+Jul 14 17:14:27 Babayaga kernel: rcu: Preemptible hierarchical RCU implementation.
+Jul 14 17:14:27 Babayaga kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+Jul 14 17:14:27 Babayaga kernel:         Trampoline variant of Tasks RCU enabled.
+Jul 14 17:14:27 Babayaga kernel:         Rude variant of Tasks RCU enabled.
+Jul 14 17:14:27 Babayaga kernel:         Tracing variant of Tasks RCU enabled.
+Jul 14 17:14:27 Babayaga kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Jul 14 17:14:27 Babayaga kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+Jul 14 17:14:27 Babayaga kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+Jul 14 17:14:27 Babayaga kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+Jul 14 17:14:27 Babayaga kernel: NR_IRQS: 524544, nr_irqs: 2048, preallocated irqs: 16
+Jul 14 17:14:27 Babayaga kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Jul 14 17:14:27 Babayaga kernel: Console: colour dummy device 80x25
+Jul 14 17:14:27 Babayaga kernel: printk: legacy console [tty0] enabled
+Jul 14 17:14:27 Babayaga kernel: ACPI: Core revision 20251212
+Jul 14 17:14:27 Babayaga kernel: hpet: HPET dysfunctional in PC10. Force disabled.
+Jul 14 17:14:27 Babayaga kernel: APIC: Switch to symmetric I/O mode setup
+Jul 14 17:14:27 Babayaga kernel: DMAR: Host address width 39
+Jul 14 17:14:27 Babayaga kernel: DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+Jul 14 17:14:27 Babayaga kernel: DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap 1c0000c40660462 ecap 19e2ff0505e
+Jul 14 17:14:27 Babayaga kernel: DMAR: DRHD base: 0x000000fed91000 flags: 0x1
+Jul 14 17:14:27 Babayaga kernel: DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap d2008c40660462 ecap f050da
+Jul 14 17:14:27 Babayaga kernel: DMAR: RMRR base: 0x0000008f47f000 end: 0x0000008f49efff
+Jul 14 17:14:27 Babayaga kernel: DMAR: RMRR base: 0x0000009a000000 end: 0x0000009c7fffff
+Jul 14 17:14:27 Babayaga kernel: DMAR-IR: IOAPIC id 2 under DRHD base  0xfed91000 IOMMU 1
+Jul 14 17:14:27 Babayaga kernel: DMAR-IR: HPET id 0 under DRHD base 0xfed91000
+Jul 14 17:14:27 Babayaga kernel: DMAR-IR: Queued invalidation will be enabled to support x2apic and Intr-remapping.
+Jul 14 17:14:27 Babayaga kernel: DMAR-IR: Enabled IRQ remapping in x2apic mode
+Jul 14 17:14:27 Babayaga kernel: x2apic enabled
+Jul 14 17:14:27 Babayaga kernel: APIC: Switched APIC routing to: cluster x2apic
+Jul 14 17:14:27 Babayaga kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x36c5f9386c6, max_idle_ns: 881590416379 ns
+Jul 14 17:14:27 Babayaga kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 3799.90 BogoMIPS (lpj=1899950)
+Jul 14 17:14:27 Babayaga kernel: CPU0: Thermal monitoring enabled (TM1)
+Jul 14 17:14:27 Babayaga kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Jul 14 17:14:27 Babayaga kernel: Last level dTLB entries: 4KB 64, 2MB 32, 4MB 32, 1GB 4
+Jul 14 17:14:27 Babayaga kernel: process: using mwait in idle threads
+Jul 14 17:14:27 Babayaga kernel: mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+Jul 14 17:14:27 Babayaga kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+Jul 14 17:14:27 Babayaga kernel: SRBDS: Mitigation: Microcode
+Jul 14 17:14:27 Babayaga kernel: Spectre V2 : Mitigation: IBRS
+Jul 14 17:14:27 Babayaga kernel: RETBleed: Mitigation: IBRS
+Jul 14 17:14:27 Babayaga kernel: Spectre V2 : User space: Mitigation: STIBP via prctl
+Jul 14 17:14:27 Babayaga kernel: MDS: Mitigation: Clear CPU buffers
+Jul 14 17:14:27 Babayaga kernel: MMIO Stale Data: Mitigation: Clear CPU buffers
+Jul 14 17:14:27 Babayaga kernel: VMSCAPE: Mitigation: IBPB before exit to userspace
+Jul 14 17:14:27 Babayaga kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jul 14 17:14:27 Babayaga kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+Jul 14 17:14:27 Babayaga kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Jul 14 17:14:27 Babayaga kernel: GDS: Vulnerable
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+Jul 14 17:14:27 Babayaga kernel: x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+Jul 14 17:14:27 Babayaga kernel: Freeing SMP alternatives memory: 56K
+Jul 14 17:14:27 Babayaga kernel: pid_max: default: 32768 minimum: 301
+Jul 14 17:14:27 Babayaga kernel: landlock: Up and running.
+Jul 14 17:14:27 Babayaga kernel: Yama: becoming mindful.
+Jul 14 17:14:27 Babayaga kernel: AppArmor: AppArmor initialized
+Jul 14 17:14:27 Babayaga kernel: AppArmor: AppArmor secmark mediation reserved: ready to be enabled
+Jul 14 17:14:27 Babayaga kernel: Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: VFS: Finished mounting rootfs on nullfs
+Jul 14 17:14:27 Babayaga kernel: smpboot: CPU0: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz (family: 0x6, model: 0x8e, stepping: 0xa)
+Jul 14 17:14:27 Babayaga kernel: Performance Events: PEBS fmt3+, Skylake events, 32-deep LBR, full-width counters, Intel PMU driver.
+Jul 14 17:14:27 Babayaga kernel: ... version:                   4
+Jul 14 17:14:27 Babayaga kernel: ... bit width:                 48
+Jul 14 17:14:27 Babayaga kernel: ... generic counters:          4
+Jul 14 17:14:27 Babayaga kernel: ... generic bitmap:            000000000000000f
+Jul 14 17:14:27 Babayaga kernel: ... fixed-purpose counters:    3
+Jul 14 17:14:27 Babayaga kernel: ... fixed-purpose bitmap:      0000000000000007
+Jul 14 17:14:27 Babayaga kernel: ... value mask:                0000ffffffffffff
+Jul 14 17:14:27 Babayaga kernel: ... max period:                00007fffffffffff
+Jul 14 17:14:27 Babayaga kernel: ... global_ctrl mask:          000000070000000f
+Jul 14 17:14:27 Babayaga kernel: signal: max sigframe size: 2032
+Jul 14 17:14:27 Babayaga kernel: Estimated ratio of average max frequency by base frequency (times 1024): 1940
+Jul 14 17:14:27 Babayaga kernel: rcu: Hierarchical SRCU implementation.
+Jul 14 17:14:27 Babayaga kernel: rcu:         Max phase no-delay instances is 400.
+Jul 14 17:14:27 Babayaga kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+Jul 14 17:14:27 Babayaga kernel: NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+Jul 14 17:14:27 Babayaga kernel: smp: Bringing up secondary CPUs ...
+Jul 14 17:14:27 Babayaga kernel: smpboot: x86: Booting SMP configuration:
+Jul 14 17:14:27 Babayaga kernel: .... node  #0, CPUs:      #1 #2 #3 #4 #5 #6 #7
+Jul 14 17:14:27 Babayaga kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jul 14 17:14:27 Babayaga kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jul 14 17:14:27 Babayaga kernel: VMSCAPE: SMT on, STIBP is required for full protection. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/vmscape.html for more details.
+Jul 14 17:14:27 Babayaga kernel: smp: Brought up 1 node, 8 CPUs
+Jul 14 17:14:27 Babayaga kernel: smpboot: Total of 8 processors activated (30399.20 BogoMIPS)
+Jul 14 17:14:27 Babayaga kernel: Memory: 14107892K/16511508K available (23128K kernel code, 4932K rwdata, 16672K rodata, 5420K init, 5748K bss, 2382924K reserved, 0K cma-reserved)
+Jul 14 17:14:27 Babayaga kernel: devtmpfs: initialized
+Jul 14 17:14:27 Babayaga kernel: x86/mm: Memory block size: 128MB
+Jul 14 17:14:27 Babayaga kernel: ACPI: PM: Registering ACPI NVS region [mem 0x84fa7000-0x84fa7fff] (4096 bytes)
+Jul 14 17:14:27 Babayaga kernel: ACPI: PM: Registering ACPI NVS region [mem 0x8ff2b000-0x8ff96fff] (442368 bytes)
+Jul 14 17:14:27 Babayaga kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Jul 14 17:14:27 Babayaga kernel: posixtimers hash table entries: 4096 (order: 4, 65536 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: futex hash table entries: 2048 (131072 bytes on 1 NUMA nodes, total 128 KiB, linear).
+Jul 14 17:14:27 Babayaga kernel: PM: RTC time: 10:14:20, date: 2026-07-14
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Jul 14 17:14:27 Babayaga kernel: DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+Jul 14 17:14:27 Babayaga kernel: DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Jul 14 17:14:27 Babayaga kernel: DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Jul 14 17:14:27 Babayaga kernel: audit: initializing netlink subsys (disabled)
+Jul 14 17:14:27 Babayaga kernel: audit: type=2000 audit(1784024060.024:1): state=initialized audit_enabled=0 res=1
+Jul 14 17:14:27 Babayaga kernel: thermal_sys: Registered thermal governor 'fair_share'
+Jul 14 17:14:27 Babayaga kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Jul 14 17:14:27 Babayaga kernel: thermal_sys: Registered thermal governor 'step_wise'
+Jul 14 17:14:27 Babayaga kernel: thermal_sys: Registered thermal governor 'user_space'
+Jul 14 17:14:27 Babayaga kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Jul 14 17:14:27 Babayaga kernel: cpuidle: using governor ladder
+Jul 14 17:14:27 Babayaga kernel: cpuidle: using governor menu
+Jul 14 17:14:27 Babayaga kernel: Simple Boot Flag at 0x47 set to 0x1
+Jul 14 17:14:27 Babayaga kernel: efi: Freeing EFI boot services memory: 71472K
+Jul 14 17:14:27 Babayaga kernel: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Jul 14 17:14:27 Babayaga kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jul 14 17:14:27 Babayaga kernel: PCI: ECAM [mem 0xf8000000-0xfbffffff] (base 0xf8000000) for domain 0000 [bus 00-3f]
+Jul 14 17:14:27 Babayaga kernel: PCI: Using configuration type 1 for base access
+Jul 14 17:14:27 Babayaga kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Jul 14 17:14:27 Babayaga kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+Jul 14 17:14:27 Babayaga kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+Jul 14 17:14:27 Babayaga kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Jul 14 17:14:27 Babayaga kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Jul 14 17:14:27 Babayaga kernel: ACPI: Added _OSI(Module Device)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Added _OSI(Processor Device)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Jul 14 17:14:27 Babayaga kernel: ACPI: 13 ACPI AML tables successfully acquired and loaded
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: EC started
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: interrupt blocked
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: Boot ECDT EC used to handle transactions
+Jul 14 17:14:27 Babayaga kernel: ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_: platform _OSC: OS support mask [006e7eff]
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_: platform _OSC: OS control mask [006e7eff]
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D3003E4400 0003FF (v02 PmRef  Cpu0Cst  00003001 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D301E98000 0005AC (v02 PmRef  Cpu0Ist  00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D301EB3900 0000BA (v02 PmRef  Cpu0Hwp  00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D301E99000 000628 (v02 PmRef  HwpLvt   00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D3024FF000 000D14 (v02 PmRef  ApIst    00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D3003E6800 000317 (v02 PmRef  ApHwp    00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Dynamic OEM Table Load:
+Jul 14 17:14:27 Babayaga kernel: ACPI: SSDT 0xFFFF88D3003E2400 00030A (v02 PmRef  ApCst    00003000 INTL 20160527)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Interpreter enabled
+Jul 14 17:14:27 Babayaga kernel: ACPI: PM: (supports S0 S3 S4 S5)
+Jul 14 17:14:27 Babayaga kernel: ACPI: Using IOAPIC for interrupt routing
+Jul 14 17:14:27 Babayaga kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jul 14 17:14:27 Babayaga kernel: PCI: Ignoring E820 reservations for host bridge windows
+Jul 14 17:14:27 Babayaga kernel: ACPI: Enabled 8 GPEs in block 00 to 7F
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_.PCI0.LPCB.EC__.PUBS: New power resource
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_.PCI0.RP05.PXP_: New power resource
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-3e])
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0A08:00: _OSC: platform does not support [AER]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability LTR DPC]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+Jul 14 17:14:27 Babayaga kernel: PCI host bridge to bus 0000:00
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [mem 0x9c800000-0xf7ffffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: root bus resource [bus 00-3e]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:00.0: [8086:5914] type 00 class 0x060000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: [8086:5917] type 00 class 0x030000 PCIe Root Complex Integrated Endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: BAR 0 [mem 0xeb000000-0xebffffff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: BAR 2 [mem 0xa0000000-0xafffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: BAR 4 [io  0xe000-0xe03f]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: DMAR: Disabling IOMMU for graphics on this chipset
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:04.0: [8086:1903] type 00 class 0x118000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:04.0: BAR 0 [mem 0xec240000-0xec247fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:08.0: [8086:1911] type 00 class 0x088000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:08.0: BAR 0 [mem 0xec250000-0xec250fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.0: [8086:9d2f] type 00 class 0x0c0330 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.0: BAR 0 [mem 0xec230000-0xec23ffff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.0: PME# supported from D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.2: [8086:9d31] type 00 class 0x118000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.2: BAR 0 [mem 0xec251000-0xec251fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:15.0: [8086:9d60] type 00 class 0x118000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:15.0: BAR 0 [mem 0xec252000-0xec252fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.0: [8086:9d3a] type 00 class 0x078000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.0: BAR 0 [mem 0xec253000-0xec253fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.0: PME# supported from D3hot
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.3: [8086:9d3d] type 00 class 0x070002 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.3: BAR 0 [io  0xe060-0xe067]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.3: BAR 1 [mem 0xec255000-0xec255fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: [8086:9d10] type 01 class 0x060400 PCIe Root Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: [8086:9d14] type 01 class 0x060400 PCIe Root Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: PCI bridge to [bus 04-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4:   bridge window [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: [8086:9d16] type 01 class 0x060400 PCIe Root Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: PCI bridge to [bus 3d]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6:   bridge window [mem 0xec100000-0xec1fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: [8086:9d18] type 01 class 0x060400 PCIe Root Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: PCI bridge to [bus 3e]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0:   bridge window [mem 0xec000000-0xec0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.0: [8086:9d4e] type 00 class 0x060100 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.2: [8086:9d21] type 00 class 0x058000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.2: BAR 0 [mem 0xec24c000-0xec24ffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.3: [8086:9d71] type 00 class 0x040300 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.3: BAR 0 [mem 0xec248000-0xec24bfff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.3: BAR 4 [mem 0xec220000-0xec22ffff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.3: PME# supported from D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.4: [8086:9d23] type 00 class 0x0c0500 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.4: BAR 0 [mem 0xec254000-0xec2540ff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.4: BAR 4 [io  0xefa0-0xefbf]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.6: [8086:15d7] type 00 class 0x020000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.6: BAR 0 [mem 0xec200000-0xec21ffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.6: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: [8086:15c0] type 01 class 0x060400 PCIe Switch Upstream Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: PCI bridge to [bus 05-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0:   bridge window [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: PCI bridge to [bus 04-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: [8086:15c0] type 01 class 0x060400 PCIe Switch Downstream Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: PCI bridge to [bus 06]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0:   bridge window [mem 0xea000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: [8086:15c0] type 01 class 0x060400 PCIe Switch Downstream Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: PCI bridge to [bus 07-3b]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0:   bridge window [mem 0xd4000000-0xe9efffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: [8086:15c0] type 01 class 0x060400 PCIe Switch Downstream Port
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: PCI bridge to [bus 3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0:   bridge window [mem 0xe9f00000-0xe9ffffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: PCI bridge to [bus 05-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: [8086:15bf] type 00 class 0x088000 PCIe Endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: BAR 0 [mem 0xea000000-0xea03ffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: BAR 1 [mem 0xea040000-0xea040fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: PCI bridge to [bus 06]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: PCI bridge to [bus 07-3b]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: [8086:15c1] type 00 class 0x0c0330 PCIe Endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: BAR 0 [mem 0xe9f00000-0xe9f0ffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: enabling Extended Tags
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: supports D1 D2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: PCI bridge to [bus 3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3d:00.0: [8086:24fd] type 00 class 0x028000 PCIe Endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3d:00.0: BAR 0 [mem 0xec100000-0xec101fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3d:00.0: PME# supported from D0 D3hot D3cold
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: PCI bridge to [bus 3d]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3e:00.0: [15b7:5009] type 00 class 0x010802 PCIe Endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3e:00.0: BAR 0 [mem 0xec000000-0xec003fff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3e:00.0: BAR 4 [mem 0xec004000-0xec0040ff 64bit]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: PCI bridge to [bus 3e]
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKE configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKF configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: interrupt unblocked
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: event unblocked
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Jul 14 17:14:27 Babayaga kernel: ACPI: EC: GPE=0x16
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_.PCI0.LPCB.EC__: Boot ECDT EC initialization complete
+Jul 14 17:14:27 Babayaga kernel: ACPI: \_SB_.PCI0.LPCB.EC__: EC: Used to handle transactions and events
+Jul 14 17:14:27 Babayaga kernel: iommu: Default domain type: Translated
+Jul 14 17:14:27 Babayaga kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+Jul 14 17:14:27 Babayaga kernel: SCSI subsystem initialized
+Jul 14 17:14:27 Babayaga kernel: libata version 3.00 loaded.
+Jul 14 17:14:27 Babayaga kernel: ACPI: bus type USB registered
+Jul 14 17:14:27 Babayaga kernel: usbcore: registered new interface driver usbfs
+Jul 14 17:14:27 Babayaga kernel: usbcore: registered new interface driver hub
+Jul 14 17:14:27 Babayaga kernel: usbcore: registered new device driver usb
+Jul 14 17:14:27 Babayaga kernel: pps_core: LinuxPPS API ver. 1 registered
+Jul 14 17:14:27 Babayaga kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul 14 17:14:27 Babayaga kernel: PTP clock support registered
+Jul 14 17:14:27 Babayaga kernel: EDAC MC: Ver: 3.0.0
+Jul 14 17:14:27 Babayaga kernel: efivars: Registered efivars operations
+Jul 14 17:14:27 Babayaga kernel: NetLabel: Initializing
+Jul 14 17:14:27 Babayaga kernel: NetLabel:  domain hash size = 128
+Jul 14 17:14:27 Babayaga kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jul 14 17:14:27 Babayaga kernel: NetLabel:  unlabeled traffic allowed by default
+Jul 14 17:14:27 Babayaga kernel: mctp: management component transport protocol core
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_MCTP protocol family
+Jul 14 17:14:27 Babayaga kernel: PCI: Using ACPI for IRQ routing
+Jul 14 17:14:27 Babayaga kernel: PCI: pci_cache_line_size set to 64 bytes
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x00058000-0x0005ffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x0008c000-0x0008ffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x7f25a000-0x7fffffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x7ff1b000-0x7fffffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x8093b000-0x83ffffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x84fa7000-0x87ffffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x8e90e000-0x8fffffff]
+Jul 14 17:14:27 Babayaga kernel: e820: register RAM buffer resource [mem 0x461800000-0x463ffffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jul 14 17:14:27 Babayaga kernel: vgaarb: loaded
+Jul 14 17:14:27 Babayaga kernel: clocksource: Switched to clocksource tsc-early
+Jul 14 17:14:27 Babayaga kernel: VFS: Disk quotas dquot_6.6.0
+Jul 14 17:14:27 Babayaga kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jul 14 17:14:27 Babayaga kernel: AppArmor: AppArmor Filesystem Enabled
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:00: Reserved [mem 0x40000000-0x403fffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfd000000-0xfdabffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfdad0000-0xfdadffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfdb00000-0xfdffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Could not reserve [mem 0xfe000000-0xfe01ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfe036000-0xfe03bfff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfe03d000-0xfe3fffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:01: Reserved [mem 0xfe410000-0xfe7fffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:02: Reserved [io  0xff00-0xfffe]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x002e-0x002f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x004e-0x004f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0061]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0063]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0065]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0067]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0070]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0080]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x0092]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Skipped [io  0x00b2-0x00b3]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Reserved [io  0x0680-0x069f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Reserved [io  0xffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Reserved [io  0xffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Reserved [io  0xffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Could not reserve [io  0x1800-0x18fe]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:03: Reserved [io  0x164e-0x164f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0010-0x001f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0090-0x009f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0024-0x0025]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0028-0x0029]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x002c-0x002d]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0030-0x0031]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0034-0x0035]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0038-0x0039]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x003c-0x003d]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00a4-0x00a5]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00a8-0x00a9]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00ac-0x00ad]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00b0-0x00b5]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00b8-0x00b9]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x00bc-0x00bd]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0050-0x0053]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Skipped [io  0x0072-0x0077]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Could not reserve [io  0x1800-0x189f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0800-0x087f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0880-0x08ff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0900-0x097f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0980-0x09ff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0a00-0x0a7f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0a80-0x0aff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0b00-0x0b7f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x0b80-0x0bff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [io  0x15e0-0x15ef]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Could not reserve [io  0x1600-0x167f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Could not reserve [io  0x1640-0x165f]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xf8000000-0xfbffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xfed10000-0xfed13fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xfed18000-0xfed18fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xfed19000-0xfed19fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xfeb00000-0xfebfffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xfed20000-0xfed3ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Could not reserve [mem 0xfed90000-0xfed93fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:05: Reserved [mem 0xf7fe0000-0xf7ffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:06: Reserved [mem 0xfdaf0000-0xfdafffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:06: Reserved [mem 0xfdae0000-0xfdaeffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:06: Reserved [mem 0xfdac0000-0xfdacffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Could not reserve [mem 0xfed10000-0xfed17fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xfed18000-0xfed18fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xfed19000-0xfed19fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xf8000000-0xfbffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xfed20000-0xfed3ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Could not reserve [mem 0xfed90000-0xfed93fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xfed45000-0xfed8ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xff000000-0xffffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xfee00000-0xfeefffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C02:07: Reserved [mem 0xf7fe0000-0xf7ffffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x00000000-0x0009ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000c0000-0x000c3fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000c8000-0x000cbfff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000d0000-0x000d3fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000d8000-0x000dbfff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000e0000-0x000e3fff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000e8000-0x000ebfff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x000f0000-0x000fffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0x00100000-0x9c7fffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0xfec00000-0xfed3ffff]
+Jul 14 17:14:27 Babayaga kernel: acpi PNP0C01:00: Could not reserve [mem 0xfed4c000-0xffffffff]
+Jul 14 17:14:27 Babayaga kernel: pnp: PnP ACPI init
+Jul 14 17:14:27 Babayaga kernel: pnp: PnP ACPI: found 3 devices
+Jul 14 17:14:27 Babayaga kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_INET protocol family
+Jul 14 17:14:27 Babayaga kernel: IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: TCP: Hash tables configured (established 131072 bind 65536)
+Jul 14 17:14:27 Babayaga kernel: MPTCP token hash table entries: 16384 (order: 7, 393216 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: UDP hash table entries: 8192 (order: 7, 524288 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: UDP-Lite hash table entries: 8192 (order: 7, 524288 bytes, linear)
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_XDP protocol family
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000 add_align 100000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000 add_align 100000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: bridge window [io  0x1000-0x0fff] to [bus 07-3b] add_size 1000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: bridge window [io  0x1000-0x0fff] to [bus 05-3c] add_size 1000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: bridge window [io  0x1000-0x0fff] to [bus 04-3c] add_size 2000
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [mem 0x9c800000-0x9c9fffff]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [mem 0x9ca00000-0x9cbfffff 64bit pref]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: bridge window [io  0x2000-0x2fff]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: bridge window [io  0x3000-0x4fff]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: PCI bridge to [bus 01]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0:   bridge window [io  0x2000-0x2fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0:   bridge window [mem 0x9c800000-0x9c9fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0:   bridge window [mem 0x9ca00000-0x9cbfffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: bridge window [io  0x3000-0x3fff]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: bridge window [io  0x3000-0x3fff]: assigned
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: PCI bridge to [bus 06]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0:   bridge window [mem 0xea000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: PCI bridge to [bus 07-3b]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0:   bridge window [io  0x3000-0x3fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0:   bridge window [mem 0xd4000000-0xe9efffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: PCI bridge to [bus 3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0:   bridge window [mem 0xe9f00000-0xe9ffffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: PCI bridge to [bus 05-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0:   bridge window [io  0x3000-0x3fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0:   bridge window [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: PCI bridge to [bus 04-3c]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4:   bridge window [io  0x3000-0x4fff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4:   bridge window [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4:   bridge window [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: PCI bridge to [bus 3d]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6:   bridge window [mem 0xec100000-0xec1fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: PCI bridge to [bus 3e]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0:   bridge window [mem 0xec000000-0xec0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: resource 7 [mem 0x9c800000-0xf7ffffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:00: resource 8 [mem 0xfd000000-0xfe7fffff window]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:01: resource 1 [mem 0x9c800000-0x9c9fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:01: resource 2 [mem 0x9ca00000-0x9cbfffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:04: resource 0 [io  0x3000-0x4fff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:04: resource 1 [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:04: resource 2 [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:05: resource 0 [io  0x3000-0x3fff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:05: resource 1 [mem 0xd4000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:05: resource 2 [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:06: resource 1 [mem 0xea000000-0xea0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:07: resource 0 [io  0x3000-0x3fff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:07: resource 1 [mem 0xd4000000-0xe9efffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:07: resource 2 [mem 0xb0000000-0xd1ffffff 64bit pref]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:3c: resource 1 [mem 0xe9f00000-0xe9ffffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:3d: resource 1 [mem 0xec100000-0xec1fffff]
+Jul 14 17:14:27 Babayaga kernel: pci_bus 0000:3e: resource 1 [mem 0xec000000-0xec0fffff]
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: enabling device (0006 -> 0007)
+Jul 14 17:14:27 Babayaga kernel: PCI: CLS 128 bytes, default 64
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.1: [8086:9d20] type 00 class 0x058000 conventional PCI endpoint
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.1: BAR 0 [mem 0xfd000000-0xfdffffff 64bit]
+Jul 14 17:14:27 Babayaga kernel: DMAR: No ATSR found
+Jul 14 17:14:27 Babayaga kernel: DMAR: No SATC found
+Jul 14 17:14:27 Babayaga kernel: DMAR: dmar1: Using Queued invalidation
+Jul 14 17:14:27 Babayaga kernel: Trying to unpack rootfs image as initramfs...
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:00.0: Adding to iommu group 0
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:04.0: Adding to iommu group 1
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:08.0: Adding to iommu group 2
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.0: Adding to iommu group 3
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:14.2: Adding to iommu group 3
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:15.0: Adding to iommu group 4
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.0: Adding to iommu group 5
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:16.3: Adding to iommu group 5
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.0: Adding to iommu group 6
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.4: Adding to iommu group 7
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1c.6: Adding to iommu group 8
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1d.0: Adding to iommu group 9
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.0: Adding to iommu group 10
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.2: Adding to iommu group 10
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.3: Adding to iommu group 10
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.4: Adding to iommu group 10
+Jul 14 17:14:27 Babayaga kernel: pci 0000:00:1f.6: Adding to iommu group 10
+Jul 14 17:14:27 Babayaga kernel: pci 0000:04:00.0: Adding to iommu group 11
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:00.0: Adding to iommu group 12
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:01.0: Adding to iommu group 13
+Jul 14 17:14:27 Babayaga kernel: pci 0000:05:02.0: Adding to iommu group 14
+Jul 14 17:14:27 Babayaga kernel: pci 0000:06:00.0: Adding to iommu group 12
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3c:00.0: Adding to iommu group 14
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3d:00.0: Adding to iommu group 15
+Jul 14 17:14:27 Babayaga kernel: pci 0000:3e:00.0: Adding to iommu group 16
+Jul 14 17:14:27 Babayaga kernel: DMAR: Intel(R) Virtualization Technology for Directed I/O
+Jul 14 17:14:27 Babayaga kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jul 14 17:14:27 Babayaga kernel: software IO TLB: mapped [mem 0x0000000089b47000-0x000000008db47000] (64MB)
+Jul 14 17:14:27 Babayaga kernel: resource: resource sanity check: requesting [mem 0x00000000fed10000-0x00000000fed15fff], which spans more than PNP0C02:05 [mem 0xfed10000-0xfed13fff]
+Jul 14 17:14:27 Babayaga kernel: caller snb_uncore_imc_init_box+0x7e/0xe0 mapping multiple BARs
+Jul 14 17:14:27 Babayaga kernel: sgx: EPC section 0x90200000-0x95f7ffff
+Jul 14 17:14:27 Babayaga kernel: sgx: SGX disabled: SGX launch control CPU feature is not available, /dev/sgx_enclave disabled.
+Jul 14 17:14:27 Babayaga kernel: Initialise system trusted keyrings
+Jul 14 17:14:27 Babayaga kernel: Key type blacklist registered
+Jul 14 17:14:27 Babayaga kernel: workingset: timestamp_bits=36 max_order=22 bucket_order=0
+Jul 14 17:14:27 Babayaga kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jul 14 17:14:27 Babayaga kernel: fuse: init (API version 7.45)
+Jul 14 17:14:27 Babayaga kernel: integrity: Platform Keyring initialized
+Jul 14 17:14:27 Babayaga kernel: integrity: Machine keyring initialized
+Jul 14 17:14:27 Babayaga kernel: Key type asymmetric registered
+Jul 14 17:14:27 Babayaga kernel: Asymmetric key parser 'x509' registered
+Jul 14 17:14:27 Babayaga kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+Jul 14 17:14:27 Babayaga kernel: io scheduler mq-deadline registered
+Jul 14 17:14:27 Babayaga kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.0: PME: Signaling with IRQ 121
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.0: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.4: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.4: PME: Signaling with IRQ 122
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.4: pciehp: Slot #4 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.6: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1c.6: PME: Signaling with IRQ 123
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1d.0: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:00:1d.0: PME: Signaling with IRQ 124
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:05:01.0: enabling device (0006 -> 0007)
+Jul 14 17:14:27 Babayaga kernel: pcieport 0000:05:01.0: pciehp: Slot #1 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+Jul 14 17:14:27 Babayaga kernel: ACPI: AC: AC Adapter [AC] (off-line)
+Jul 14 17:14:27 Babayaga kernel: input: Sleep Button as /devices/platform/PNP0C0E:00/input/input0
+Jul 14 17:14:27 Babayaga kernel: ACPI: button: Sleep Button [SLPB]
+Jul 14 17:14:27 Babayaga kernel: input: Lid Switch as /devices/platform/PNP0C0D:00/input/input1
+Jul 14 17:14:27 Babayaga kernel: ACPI: button: Lid Switch [LID]
+Jul 14 17:14:27 Babayaga kernel: input: Power Button as /devices/platform/LNXPWRBN:00/input/input2
+Jul 14 17:14:27 Babayaga kernel: ACPI: button: Power Button [PWRF]
+Jul 14 17:14:27 Babayaga kernel: Monitor-Mwait will be used to enter C-1 state
+Jul 14 17:14:27 Babayaga kernel: Monitor-Mwait will be used to enter C-2 state
+Jul 14 17:14:27 Babayaga kernel: Monitor-Mwait will be used to enter C-3 state
+Jul 14 17:14:27 Babayaga kernel: acpi LNXTHERM:00: registered as thermal_zone0
+Jul 14 17:14:27 Babayaga kernel: ACPI: thermal: Thermal Zone [THM0] (42 C)
+Jul 14 17:14:27 Babayaga kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jul 14 17:14:27 Babayaga kernel: serial 0000:00:16.3: enabling device (0001 -> 0003)
+Jul 14 17:14:27 Babayaga kernel: 0000:00:16.3: ttyS4 at I/O 0xe060 (irq = 19, base_baud = 115200) is a 16550A
+Jul 14 17:14:27 Babayaga kernel: hpet_acpi_add: no address or irqs in _CRS
+Jul 14 17:14:27 Babayaga kernel: Linux agpgart interface v0.103
+Jul 14 17:14:27 Babayaga kernel: ACPI: battery: Slot [BAT0] (battery present)
+Jul 14 17:14:27 Babayaga kernel: tpm_tis IFX0785:00: 2.0 TPM (device-id 0x1B, rev-id 22)
+Jul 14 17:14:27 Babayaga kernel: loop: module loaded
+Jul 14 17:14:27 Babayaga kernel: ACPI: bus type drm_connector registered
+Jul 14 17:14:27 Babayaga kernel: tun: Universal TUN/TAP device driver, 1.6
+Jul 14 17:14:27 Babayaga kernel: PPP generic driver version 2.4.2
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000081109810
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+Jul 14 17:14:27 Babayaga kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+Jul 14 17:14:27 Babayaga kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 14 17:14:27 Babayaga kernel: usb usb1: Product: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: usb usb1: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+Jul 14 17:14:27 Babayaga kernel: usb usb1: SerialNumber: 0000:00:14.0
+Jul 14 17:14:27 Babayaga kernel: hub 1-0:1.0: USB hub found
+Jul 14 17:14:27 Babayaga kernel: hub 1-0:1.0: 12 ports detected
+Jul 14 17:14:27 Babayaga kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+Jul 14 17:14:27 Babayaga kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 14 17:14:27 Babayaga kernel: usb usb2: Product: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: usb usb2: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+Jul 14 17:14:27 Babayaga kernel: usb usb2: SerialNumber: 0000:00:14.0
+Jul 14 17:14:27 Babayaga kernel: hub 2-0:1.0: USB hub found
+Jul 14 17:14:27 Babayaga kernel: hub 2-0:1.0: 6 ports detected
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: new USB bus registered, assigned bus number 3
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: new USB bus registered, assigned bus number 4
+Jul 14 17:14:27 Babayaga kernel: xhci_hcd 0000:3c:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+Jul 14 17:14:27 Babayaga kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+Jul 14 17:14:27 Babayaga kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 14 17:14:27 Babayaga kernel: usb usb3: Product: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: usb usb3: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+Jul 14 17:14:27 Babayaga kernel: usb usb3: SerialNumber: 0000:3c:00.0
+Jul 14 17:14:27 Babayaga kernel: hub 3-0:1.0: USB hub found
+Jul 14 17:14:27 Babayaga kernel: hub 3-0:1.0: 2 ports detected
+Jul 14 17:14:27 Babayaga kernel: usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+Jul 14 17:14:27 Babayaga kernel: usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jul 14 17:14:27 Babayaga kernel: usb usb4: Product: xHCI Host Controller
+Jul 14 17:14:27 Babayaga kernel: usb usb4: Manufacturer: Linux 7.0.0-14-generic xhci-hcd
+Jul 14 17:14:27 Babayaga kernel: usb usb4: SerialNumber: 0000:3c:00.0
+Jul 14 17:14:27 Babayaga kernel: hub 4-0:1.0: USB hub found
+Jul 14 17:14:27 Babayaga kernel: hub 4-0:1.0: 2 ports detected
+Jul 14 17:14:27 Babayaga kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jul 14 17:14:27 Babayaga kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Jul 14 17:14:27 Babayaga kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Jul 14 17:14:27 Babayaga kernel: mousedev: PS/2 mouse device common for all mice
+Jul 14 17:14:27 Babayaga kernel: rtc_cmos 00:00: RTC can wake from S4
+Jul 14 17:14:27 Babayaga kernel: rtc_cmos 00:00: registered as rtc0
+Jul 14 17:14:27 Babayaga kernel: rtc_cmos 00:00: setting system clock to 2026-07-14T10:14:21 UTC (1784024061)
+Jul 14 17:14:27 Babayaga kernel: rtc_cmos 00:00: alarms up to one month, y3k, 242 bytes nvram
+Jul 14 17:14:27 Babayaga kernel: i2c_dev: i2c /dev entries driver
+Jul 14 17:14:27 Babayaga kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Jul 14 17:14:27 Babayaga kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jul 14 17:14:27 Babayaga kernel: device-mapper: uevent: version 1.0.3
+Jul 14 17:14:27 Babayaga kernel: device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+Jul 14 17:14:27 Babayaga kernel: intel_pstate: Intel P-state driver initializing
+Jul 14 17:14:27 Babayaga kernel: intel_pstate: HWP enabled
+Jul 14 17:14:27 Babayaga kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+Jul 14 17:14:27 Babayaga kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+Jul 14 17:14:27 Babayaga kernel: fbcon: Deferring console take-over
+Jul 14 17:14:27 Babayaga kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Jul 14 17:14:27 Babayaga kernel: drop_monitor: Initializing network drop monitor service
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_INET6 protocol family
+Jul 14 17:14:27 Babayaga kernel: Segment Routing with IPv6
+Jul 14 17:14:27 Babayaga kernel: In-situ OAM (IOAM) with IPv6
+Jul 14 17:14:27 Babayaga kernel: NET: Registered PF_PACKET protocol family
+Jul 14 17:14:27 Babayaga kernel: Key type dns_resolver registered
+Jul 14 17:14:27 Babayaga kernel: ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+Jul 14 17:14:27 Babayaga kernel: microcode: Current revision: 0x000000f6
+Jul 14 17:14:27 Babayaga kernel: IPI shorthand broadcast: enabled
+Jul 14 17:14:27 Babayaga kernel: sched_clock: Marking stable (1124000945, 7128561)->(1262659589, -131530083)
+Jul 14 17:14:27 Babayaga kernel: registered taskstats version 1
+Jul 14 17:14:27 Babayaga kernel: Loading compiled-in X.509 certificates
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8fbbd5777dada3d2db2f783c7001a298154b0c85'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing 2025 Kmod: 4627603d2357a2a3f81006370894c221175893e9'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Jul 14 17:14:27 Babayaga kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Jul 14 17:14:27 Babayaga kernel: Demotion targets for Node 0: null
+Jul 14 17:14:27 Babayaga kernel: Key type .fscrypt registered
+Jul 14 17:14:27 Babayaga kernel: Key type fscrypt-provisioning registered
+Jul 14 17:14:27 Babayaga kernel: Key type big_key registered
+Jul 14 17:14:27 Babayaga kernel: Key type trusted registered
+Jul 14 17:14:27 Babayaga kernel: Freeing initrd memory: 84948K
+Jul 14 17:14:27 Babayaga kernel: Key type encrypted registered
+Jul 14 17:14:27 Babayaga kernel: AppArmor: AppArmor sha256 policy hashing enabled
+Jul 14 17:14:27 Babayaga kernel: Loading compiled-in module X.509 certificates
+Jul 14 17:14:27 Babayaga kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 8fbbd5777dada3d2db2f783c7001a298154b0c85'
+Jul 14 17:14:27 Babayaga kernel: ima: Allocated hash algorithm: sha256
+Jul 14 17:14:27 Babayaga kernel: ima: No architecture policies found
+Jul 14 17:14:27 Babayaga kernel: evm: Initialising EVM extended attributes:
+Jul 14 17:14:27 Babayaga kernel: evm: security.selinux
+Jul 14 17:14:27 Babayaga kernel: evm: security.SMACK64
+Jul 14 17:14:27 Babayaga kernel: evm: security.SMACK64EXEC
+Jul 14 17:14:27 Babayaga kernel: evm: security.SMACK64TRANSMUTE
+Jul 14 17:14:27 Babayaga kernel: evm: security.SMACK64MMAP
+Jul 14 17:14:27 Babayaga kernel: evm: security.apparmor
+Jul 14 17:14:27 Babayaga kernel: evm: security.ima
+Jul 14 17:14:27 Babayaga kernel: evm: security.capability
+Jul 14 17:14:27 Babayaga kernel: evm: HMAC attrs: 0x1
+Jul 14 17:14:27 Babayaga kernel: integrity: Loading X.509 certificate: UEFI:db
+Jul 14 17:14:27 Babayaga kernel: integrity: Loaded X.509 cert 'Lenovo Ltd.: ThinkPad Product CA 2012: 838b1f54c1550463f45f98700640f11069265949'
+Jul 14 17:14:27 Babayaga kernel: integrity: Loading X.509 certificate: UEFI:db
+Jul 14 17:14:27 Babayaga kernel: integrity: Loaded X.509 cert 'Lenovo UEFI CA 2014: 4b91a68732eaefdd2c8ffffc6b027ec3449e9c8f'
+Jul 14 17:14:27 Babayaga kernel: integrity: Loading X.509 certificate: UEFI:db
+Jul 14 17:14:27 Babayaga kernel: integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+Jul 14 17:14:27 Babayaga kernel: integrity: Loading X.509 certificate: UEFI:db
+Jul 14 17:14:27 Babayaga kernel: integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+Jul 14 17:14:27 Babayaga kernel: PM:   Magic number: 2:286:224
+Jul 14 17:14:27 Babayaga kernel: acpi device:71: hash matches
+Jul 14 17:14:27 Babayaga kernel: memory memory106: hash matches
+Jul 14 17:14:27 Babayaga kernel: RAS: Correctable Errors collector initialized.
+Jul 14 17:14:27 Babayaga kernel: clk: Disabling unused clocks
+Jul 14 17:14:27 Babayaga kernel: PM: genpd: Disabling unused power domains
+Jul 14 17:14:27 Babayaga kernel: Freeing unused decrypted memory: 2028K
+Jul 14 17:14:27 Babayaga kernel: Freeing unused kernel image (initmem) memory: 5420K
+Jul 14 17:14:27 Babayaga kernel: Write protecting the kernel read-only data: 43008k
+Jul 14 17:14:27 Babayaga kernel: Freeing unused kernel image (text/rodata gap) memory: 1444K
+Jul 14 17:14:27 Babayaga kernel: Freeing unused kernel image (rodata/data gap) memory: 1760K
+Jul 14 17:14:27 Babayaga kernel: usb 1-7: new full-speed USB device number 2 using xhci_hcd
+Jul 14 17:14:27 Babayaga kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 14 17:14:27 Babayaga kernel: x86/mm: Checking user space page tables
+Jul 14 17:14:27 Babayaga kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jul 14 17:14:27 Babayaga kernel: Run /init as init process
+Jul 14 17:14:27 Babayaga kernel:   with arguments:
+Jul 14 17:14:27 Babayaga kernel:     /init
+Jul 14 17:14:27 Babayaga kernel:     splash
+Jul 14 17:14:27 Babayaga kernel:   with environment:
+Jul 14 17:14:27 Babayaga kernel:     HOME=/
+Jul 14 17:14:27 Babayaga kernel:     TERM=linux
+Jul 14 17:14:27 Babayaga kernel: usb 1-7: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.10
+Jul 14 17:14:27 Babayaga kernel: usb 1-7: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: new SuperSpeed USB device number 2 using xhci_hcd
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: New USB device found, idVendor=0bda, idProduct=0316, bcdDevice= 2.04
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: Product: USB3.0-CRW
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: Manufacturer: Generic
+Jul 14 17:14:27 Babayaga kernel: usb 2-3: SerialNumber: 20120501030900000
+Jul 14 17:14:27 Babayaga kernel: usb-storage 2-3:1.0: USB Mass Storage device detected
+Jul 14 17:14:27 Babayaga kernel: scsi host0: usb-storage 2-3:1.0
+Jul 14 17:14:27 Babayaga kernel: usbcore: registered new interface driver usb-storage
+Jul 14 17:14:27 Babayaga kernel: usbcore: registered new interface driver uas
+Jul 14 17:14:27 Babayaga kernel: intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+Jul 14 17:14:27 Babayaga kernel: idma64 idma64.0: Found Intel integrated DMA 64-bit
+Jul 14 17:14:27 Babayaga kernel: ACPI: bus type thunderbolt registered
+Jul 14 17:14:27 Babayaga kernel: e1000e: Intel(R) PRO/1000 Network Driver
+Jul 14 17:14:27 Babayaga kernel: e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+Jul 14 17:14:27 Babayaga kernel: Key type psk registered
+Jul 14 17:14:27 Babayaga kernel: nvme nvme0: pci function 0000:3e:00.0
+Jul 14 17:14:27 Babayaga kernel: nvme nvme0: allocated 128 MiB host memory buffer (1 segment).
+Jul 14 17:14:27 Babayaga kernel: nvme nvme0: 8/0/0 default/read/poll queues
+Jul 14 17:14:27 Babayaga kernel:  nvme0n1: p1 p2
+Jul 14 17:14:27 Babayaga kernel: usb 1-8: new high-speed USB device number 3 using xhci_hcd
+Jul 14 17:14:27 Babayaga kernel: usb 1-8: New USB device found, idVendor=5986, idProduct=2113, bcdDevice=54.22
+Jul 14 17:14:27 Babayaga kernel: usb 1-8: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Jul 14 17:14:27 Babayaga kernel: usb 1-8: Product: Integrated Camera
+Jul 14 17:14:27 Babayaga kernel: usb 1-8: Manufacturer: SunplusIT Inc
+Jul 14 17:14:27 Babayaga kernel: tsc: Refined TSC clocksource calibration: 1895.997 MHz
+Jul 14 17:14:27 Babayaga kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x36a8cd570f7, max_idle_ns: 881590638222 ns
+Jul 14 17:14:27 Babayaga kernel: clocksource: Switched to clocksource tsc
+Jul 14 17:14:27 Babayaga kernel: usb 1-9: new full-speed USB device number 4 using xhci_hcd
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: assuming hardware version 4 (with firmware version 0x7f3001)
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: Synaptics capabilities query result 0x90, 0x18, 0x0f.
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: Elan sample query result 00, 20, c9
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: Elan ic body: 0x10, current fw version: 0x4
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: Trying to set up SMBus access
+Jul 14 17:14:27 Babayaga kernel: psmouse serio1: elantech: SMbus companion is not ready yet
+Jul 14 17:14:27 Babayaga kernel: typec port0: bound usb3-port1 (ops connector_ops)
+Jul 14 17:14:27 Babayaga kernel: typec port0: bound usb4-port1 (ops connector_ops)
+Jul 14 17:14:27 Babayaga kernel: input: ETPS/2 Elantech TrackPoint as /devices/platform/i8042/serio1/input/input6
+Jul 14 17:14:27 Babayaga kernel: usb 1-9: New USB device found, idVendor=06cb, idProduct=009a, bcdDevice= 1.64
+Jul 14 17:14:27 Babayaga kernel: usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Jul 14 17:14:27 Babayaga kernel: usb 1-9: SerialNumber: 50adb486f5cc
+Jul 14 17:14:27 Babayaga kernel: input: ETPS/2 Elantech Touchpad as /devices/platform/i8042/serio1/input/input5
+Jul 14 17:14:27 Babayaga kernel: typec port1: bound usb3-port2 (ops connector_ops)
+Jul 14 17:14:27 Babayaga kernel: typec port1: bound usb4-port2 (ops connector_ops)
+Jul 14 17:14:27 Babayaga kernel: scsi 0:0:0:0: Direct-Access     Generic- SD/MMC           1.00 PQ: 0 ANSI: 6
+Jul 14 17:14:27 Babayaga kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jul 14 17:14:27 Babayaga kernel: sd 0:0:0:0: [sda] Media removed, stopped polling
+Jul 14 17:14:27 Babayaga kernel: sd 0:0:0:0: [sda] Attached SCSI removable disk
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 0000:00:1f.6 (uninitialized): Failed to disable ULP
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 0000:00:1f.6 (uninitialized): registered PHC clock
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 eth0: (PCI Express:2.5GT/s:Width x1) 98:fa:9b:e5:d9:6f
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 eth0: MAC: 12, PHY: 12, PBA No: 1000FF-0FF
+Jul 14 17:14:27 Babayaga kernel: e1000e 0000:00:1f.6 enp0s31f6: renamed from eth0
+Jul 14 17:14:27 Babayaga kernel: raid6: avx2x4   gen() 29228 MB/s
+Jul 14 17:14:27 Babayaga kernel: raid6: avx2x2   gen() 32176 MB/s
+Jul 14 17:14:27 Babayaga kernel: raid6: avx2x1   gen() 24574 MB/s
+Jul 14 17:14:27 Babayaga kernel: raid6: using algorithm avx2x2 gen() 32176 MB/s
+Jul 14 17:14:27 Babayaga kernel: raid6: .... xor() 22170 MB/s, rmw enabled
+Jul 14 17:14:27 Babayaga kernel: raid6: using avx2x2 recovery algorithm
+Jul 14 17:14:27 Babayaga kernel: xor: automatically using best checksumming function   avx       
+Jul 14 17:14:27 Babayaga kernel: async_tx: api initialized (async)
+Jul 14 17:14:27 Babayaga kernel: Btrfs loaded, zoned=yes, fsverity=yes
+Jul 14 17:14:27 Babayaga kernel: EXT4-fs (nvme0n1p2): mounted filesystem 66a2c3cc-7faa-45ab-b24e-f5a01a1b022a ro with ordered data mode. Quota mode: none.
+Jul 14 17:14:27 Babayaga systemd[1]: Inserted module 'autofs4'
+Jul 14 17:14:27 Babayaga systemd[1]: systemd 255.4-1ubuntu8.16 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Jul 14 17:14:27 Babayaga systemd[1]: Detected architecture x86-64.
+Jul 14 17:14:27 Babayaga systemd[1]: Hostname set to <Babayaga>.
+Jul 14 17:14:27 Babayaga systemd[1]: Queued start job for default target graphical.target.
+Jul 14 17:14:27 Babayaga systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+Jul 14 17:14:27 Babayaga systemd[1]: Created slice system-postfix.slice - Slice /system/postfix.
+Jul 14 17:14:27 Babayaga systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+Jul 14 17:14:27 Babayaga systemd[1]: Created slice user.slice - User and Session Slice.
+Jul 14 17:14:27 Babayaga systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+Jul 14 17:14:27 Babayaga systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+Jul 14 17:14:27 Babayaga systemd[1]: Expecting device dev-disk-by\x2duuid-C36B\x2d222F.device - /dev/disk/by-uuid/C36B-222F...
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target nss-user-lookup.target - User and Group Name Lookups.
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target remote-fs.target - Remote File Systems.
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target slices.target - Slice Units.
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on syslog.socket - Syslog Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-coredump.socket - Process Core Dump Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-journald.service - Journal Service...
+Jul 14 17:14:27 Babayaga systemd[1]: Finished blk-availability.service - Availability of block devices.
+Jul 14 17:14:27 Babayaga systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+Jul 14 17:14:27 Babayaga systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jul 14 17:14:27 Babayaga systemd-journald[350]: Collecting audit messages is disabled.
+Jul 14 17:14:27 Babayaga kernel: pstore: Using crash dump compression: deflate
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+Jul 14 17:14:27 Babayaga kernel: pstore: Registered efi_pstore as persistent store backend
+Jul 14 17:14:27 Babayaga systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@drm.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+Jul 14 17:14:27 Babayaga kernel: lp: driver loaded but no devices found
+Jul 14 17:14:27 Babayaga systemd[1]: modprobe@loop.service: Deactivated successfully.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+Jul 14 17:14:27 Babayaga systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Jul 14 17:14:27 Babayaga kernel: ppdev: user-space parallel port driver
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+Jul 14 17:14:27 Babayaga kernel: EXT4-fs (nvme0n1p2): re-mounted 66a2c3cc-7faa-45ab-b24e-f5a01a1b022a r/w.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+Jul 14 17:14:27 Babayaga systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+Jul 14 17:14:27 Babayaga systemd[1]: Activating swap swapfile.swap - /swapfile...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+Jul 14 17:14:27 Babayaga kernel: Adding 2097148k swap on /swapfile.  Priority:-1 extents:16 across:84017152k SS
+Jul 14 17:14:27 Babayaga systemd[1]: Activated swap swapfile.swap - /swapfile.
+Jul 14 17:14:27 Babayaga systemd[1]: Reached target swap.target - Swaps.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+Jul 14 17:14:27 Babayaga systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+Jul 14 17:14:27 Babayaga systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+Jul 14 17:14:27 Babayaga systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+Jul 14 17:14:27 Babayaga systemd[1]: Started systemd-journald.service - Journal Service.
+Jul 14 17:14:27 Babayaga systemd-journald[350]: Received client request to flush runtime journal.
+Jul 14 17:14:27 Babayaga systemd-journald[350]: /var/log/journal/f515d37c6b9844efb30cf90c29b7dad8/system.journal: Journal file uses a different sequence number ID, rotating.
+Jul 14 17:14:27 Babayaga systemd-journald[350]: Rotating system journal.
+Jul 14 17:14:27 Babayaga kernel: mei_me 0000:00:16.0: enabling device (0004 -> 0006)
+Jul 14 17:14:27 Babayaga kernel: i801_smbus 0000:00:1f.4: enabling device (0000 -> 0003)
+Jul 14 17:14:27 Babayaga kernel: i801_smbus 0000:00:1f.4: SPD Write Disable is set
+Jul 14 17:14:27 Babayaga kernel: i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+Jul 14 17:14:27 Babayaga kernel: i2c i2c-1: Successfully instantiated SPD at 0x51
+Jul 14 17:14:27 Babayaga kernel: proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.002:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=534 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.003:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=535 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.003:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=536 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.003:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=532 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.003:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=533 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.006:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=537 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.010:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=540 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.010:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=539 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.013:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-checkns" pid=541 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: audit: type=1400 audit(1784024068.014:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ch-run" pid=542 comm="apparmor_parser"
+Jul 14 17:14:28 Babayaga kernel: intel_rapl_common: Found RAPL domain package
+Jul 14 17:14:28 Babayaga kernel: intel_rapl_common: Found RAPL domain dram
+Jul 14 17:14:28 Babayaga kernel: Non-volatile memory driver v1.3
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: ThinkPad ACPI Extras v0.26
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: http://ibm-acpi.sf.net/
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: ThinkPad BIOS N22ET85W (1.62 ), EC N22HT31W
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: Lenovo ThinkPad T480s, model 20L8S14R00
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: radio switch found; radios are enabled
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: This ThinkPad has standard ACPI backlight brightness control, supported by the ACPI video driver
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: Disabling thinkpad-acpi brightness events by default...
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: rfkill switch tpacpi_bluetooth_sw: radio is unblocked
+Jul 14 17:14:28 Babayaga kernel: psmouse serio1: elantech: assuming hardware version 4 (with firmware version 0x7f3001)
+Jul 14 17:14:28 Babayaga kernel: psmouse serio1: elantech: Synaptics capabilities query result 0x90, 0x18, 0x0f.
+Jul 14 17:14:28 Babayaga kernel: psmouse serio1: elantech: Elan sample query result 00, 20, c9
+Jul 14 17:14:28 Babayaga kernel: psmouse serio1: elantech: Elan ic body: 0x10, current fw version: 0x4
+Jul 14 17:14:28 Babayaga kernel: psmouse serio1: elantech: Trying to set up SMBus access
+Jul 14 17:14:28 Babayaga kernel: thinkpad_acpi: battery 1 registered (start 0, stop 100, behaviours: 0xb)
+Jul 14 17:14:28 Babayaga kernel: ACPI: battery: new hook: ThinkPad Battery Extension
+Jul 14 17:14:28 Babayaga kernel: input: ThinkPad Extra Buttons as /devices/platform/thinkpad_acpi/input/input9
+Jul 14 17:14:28 Babayaga kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: [drm] Found kabylake (device ID 5917) integrated display version 9.00 stepping C0
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: vgaarb: deactivate vga console
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/kbl_dmc_ver1_04.bin (v1.4)
+Jul 14 17:14:29 Babayaga kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jul 14 17:14:29 Babayaga kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: hw unit of domain package 2^-14 Joules
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: hw unit of domain dram 2^-14 Joules
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+Jul 14 17:14:29 Babayaga kernel: RAPL PMU: hw unit of domain psys 2^-14 Joules
+Jul 14 17:14:29 Babayaga kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+Jul 14 17:14:29 Babayaga kernel: intel_rapl_common: Found RAPL domain package
+Jul 14 17:14:29 Babayaga kernel: intel_rapl_common: Found RAPL domain core
+Jul 14 17:14:29 Babayaga kernel: intel_rapl_common: Found RAPL domain uncore
+Jul 14 17:14:29 Babayaga kernel: intel_rapl_common: Found RAPL domain dram
+Jul 14 17:14:29 Babayaga kernel: intel_rapl_common: Found RAPL domain psys
+Jul 14 17:14:29 Babayaga kernel: ee1004 1-0051: 512 byte EE1004-compliant SPD EEPROM, read-only
+Jul 14 17:14:29 Babayaga kernel: mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: [drm] Registered 3 planes with drm panic
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: Core ver 2.22
+Jul 14 17:14:29 Babayaga kernel: NET: Registered PF_BLUETOOTH protocol family
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: HCI device and connection manager initialized
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: HCI socket layer initialized
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: L2CAP socket layer initialized
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: SCO socket layer initialized
+Jul 14 17:14:29 Babayaga kernel: mc: Linux media interface: v0.10
+Jul 14 17:14:29 Babayaga kernel: [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+Jul 14 17:14:29 Babayaga kernel: hid: raw HID events driver (C) Jiri Kosina
+Jul 14 17:14:29 Babayaga kernel: videodev: Linux video capture interface: v2.00
+Jul 14 17:14:29 Babayaga kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Jul 14 17:14:29 Babayaga kernel: elan_i2c 1-0015: supply vcc not found, using dummy regulator
+Jul 14 17:14:29 Babayaga kernel: elan_i2c 1-0015: unexpected iap version 0x00 (ic type: 0x20), firmware update will not work
+Jul 14 17:14:29 Babayaga kernel: elan_i2c 1-0015: Elan Touchpad: Module ID: 0x0020, Firmware: 0x0001, Sample: 0x0000, IAP: 0x0000
+Jul 14 17:14:29 Babayaga kernel: input: Elan Touchpad as /devices/pci0000:00/0000:00:1f.4/i2c-1/1-0015/input/input10
+Jul 14 17:14:29 Babayaga kernel: input: Elan TrackPoint as /devices/pci0000:00/0000:00:1f.4/i2c-1/1-0015/input/input11
+Jul 14 17:14:29 Babayaga kernel: pcieport 0000:00:1c.6: Intel SPT PCH root port ACS workaround enabled
+Jul 14 17:14:29 Babayaga kernel: input: Video Bus as /devices/pci0000:00/acpi.video_bus.0/input/input12
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0: Detected crf-id 0xbadcafe, cnv-id 0x10 wfpm id 0x80000000
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0: PCI dev 24fd/0010, rev=0x230, rfid=0xd55555d5
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0: Detected Intel(R) Dual Band Wireless-AC 8265
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0: loaded firmware version 36.ca7b901d.0 8265-36.ucode op_mode iwlmvm
+Jul 14 17:14:29 Babayaga kernel: fbcon: i915drmfb (fb0) is primary device
+Jul 14 17:14:29 Babayaga kernel: fbcon: Deferring console take-over
+Jul 14 17:14:29 Babayaga kernel: i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+Jul 14 17:14:29 Babayaga kernel: usbcore: registered new interface driver btusb
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Bootloader revision 0.0 build 26 week 38 2015
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Device revision is 16
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Secure boot is enabled
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: OTP lock is enabled
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: API lock is enabled
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Debug lock is disabled
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+Jul 14 17:14:29 Babayaga kernel: Bluetooth: hci0: Found device firmware: intel/ibt-12-16.sfi
+Jul 14 17:14:29 Babayaga kernel: uvcvideo 1-8:1.0: Found UVC 1.00 device Integrated Camera (5986:2113)
+Jul 14 17:14:29 Babayaga kernel: usbcore: registered new interface driver uvcvideo
+Jul 14 17:14:29 Babayaga kernel: intel_tcc_cooling: Programmable TCC Offset detected
+Jul 14 17:14:29 Babayaga kernel: intel_pmc_core intel_pmc_core.0:  initialized
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0: base HW address: 50:e0:85:a2:08:37, OTP minor version: 0x4
+Jul 14 17:14:29 Babayaga kernel: ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+Jul 14 17:14:29 Babayaga kernel: iwlwifi 0000:3d:00.0 wlp61s0: renamed from wlan0
+Jul 14 17:14:30 Babayaga kernel: snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0: ALC257: picked fixup  for PCI SSID 17aa:0000
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0: autoconfig for ALC257: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:    mono: mono_out=0x0
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:    inputs:
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:      Internal Mic=0x12
+Jul 14 17:14:30 Babayaga kernel: snd_hda_codec_alc269 hdaudioC0D0:      Mic=0x19
+Jul 14 17:14:30 Babayaga kernel: input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+Jul 14 17:14:30 Babayaga kernel: input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+Jul 14 17:14:30 Babayaga kernel: input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+Jul 14 17:14:30 Babayaga kernel: input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
+Jul 14 17:14:30 Babayaga kernel: input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Waiting for firmware download to complete
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Firmware loaded in 1488131 usecs
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Waiting for device to boot
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Device booted in 12681 usecs
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-12-16.ddc
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Applying Intel DDC parameters completed
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Firmware revision 0.1 build 19 week 44 2021
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Reading supported features failed (-16)
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: Error reading debug features
+Jul 14 17:14:31 Babayaga kernel: Bluetooth: hci0: HCI LE Coded PHY feature bit is set, but its usage is not supported.
+Jul 14 17:14:32 Babayaga kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jul 14 17:14:32 Babayaga kernel: Bluetooth: BNEP filters: protocol multicast
+Jul 14 17:14:32 Babayaga kernel: Bluetooth: BNEP socket layer initialized
+Jul 14 17:14:32 Babayaga kernel: Bluetooth: MGMT ver 1.23
+Jul 14 17:14:32 Babayaga kernel: NET: Registered PF_ALG protocol family
+Jul 14 17:14:32 Babayaga kernel: nvme nvme0: using unchecked data buffer
+Jul 14 17:14:32 Babayaga kernel: evm: overlay not supported
+Jul 14 17:14:32 Babayaga kernel: block nvme0n1: No UUID available providing old NGUID
+Jul 14 17:14:32 Babayaga kernel: NET: Registered PF_QIPCRTR protocol family
+Jul 14 17:14:33 Babayaga kernel: Consider using thermal netlink events interface
+Jul 14 17:14:35 Babayaga kernel: kauditd_printk_skb: 116 callbacks suppressed
+Jul 14 17:14:35 Babayaga kernel: audit: type=1400 audit(1784024075.594:128): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=1648 comm="cupsd" capability=12  capname="net_admin"
+Jul 14 17:14:37 Babayaga kernel: Bluetooth: RFCOMM TTY layer initialized
+Jul 14 17:14:37 Babayaga kernel: Bluetooth: RFCOMM socket layer initialized
+Jul 14 17:14:37 Babayaga kernel: Bluetooth: RFCOMM ver 1.11
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: authenticate with b6:3e:00:60:b7:51 (local address=50:e0:85:a2:08:37)
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: send auth to b6:3e:00:60:b7:51 (try 1/3)
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: authenticated
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: associate with b6:3e:00:60:b7:51 (try 1/3)
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: RX AssocResp from b6:3e:00:60:b7:51 (capab=0x411 status=0 aid=4)
+Jul 14 17:14:38 Babayaga kernel: wlp61s0: associated
+Jul 14 17:14:39 Babayaga kernel: warning: `tokio-rt-worker' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+Jul 14 17:14:41 Babayaga kernel: audit: type=1400 audit(1784024081.624:129): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=2059 comm="apparmor_parser"
+Jul 14 17:14:41 Babayaga kernel: Initializing XFRM netlink socket
+Jul 14 17:14:41 Babayaga kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Jul 14 17:14:43 Babayaga kernel: tlp: vm.laptop_mode is deprecated. Ignoring setting.
+Jul 14 17:14:46 Babayaga kernel: e1000e 0000:00:1f.6 enp0s31f6: Failed to disable ULP
+Jul 14 17:14:46 Babayaga systemd-journald[350]: /var/log/journal/f515d37c6b9844efb30cf90c29b7dad8/user-1000.journal: Journal file uses a different sequence number ID, rotating.
+Jul 14 17:14:48 Babayaga kernel: [UFW BLOCK] IN=wlp61s0 OUT= MAC= SRC=10.50.83.150 DST=239.255.255.250 LEN=635 TOS=0x00 PREC=0x00 TTL=1 ID=7716 DF PROTO=UDP SPT=40732 DPT=3702 LEN=615 
+Jul 14 17:14:48 Babayaga kernel: [UFW BLOCK] IN=wlp61s0 OUT= MAC= SRC=fe80:0000:0000:0000:8bbd:7e46:00db:016c DST=ff02:0000:0000:0000:0000:0000:0000:000c LEN=655 TC=0 HOPLIMIT=1 FLOWLBL=847294 PROTO=UDP SPT=48155 DPT=3702 LEN=615 
+Jul 14 17:14:48 Babayaga kernel: [UFW BLOCK] IN=docker0 OUT= MAC= SRC=172.17.0.1 DST=239.255.255.250 LEN=635 TOS=0x00 PREC=0x00 TTL=1 ID=41455 DF PROTO=UDP SPT=35598 DPT=3702 LEN=615 
+Jul 14 17:19:54 Babayaga kernel: [UFW BLOCK] IN=wlp61s0 OUT= MAC=50:e0:85:a2:08:37:b6:3e:00:60:b7:51:08:00 SRC=216.239.38.120 DST=10.50.83.150 LEN=40 TOS=0x00 PREC=0x00 TTL=126 ID=3 PROTO=TCP SPT=443 DPT=55284 WINDOW=64240 RES=0x00 ACK RST URGP=0 
+Jul 14 17:20:05 Babayaga kernel: [UFW BLOCK] IN=wlp61s0 OUT= MAC=50:e0:85:a2:08:37:b6:3e:00:60:b7:51:08:00 SRC=172.217.118.4 DST=10.50.83.150 LEN=40 TOS=0x00 PREC=0x00 TTL=126 ID=3 PROTO=TCP SPT=443 DPT=45206 WINDOW=64240 RES=0x00 ACK RST URGP=0 
+Jul 14 17:20:10 Babayaga kernel: [UFW BLOCK] IN=wlp61s0 OUT= MAC=50:e0:85:a2:08:37:b6:3e:00:60:b7:51:08:00 SRC=142.250.4.102 DST=10.50.83.150 LEN=40 TOS=0x00 PREC=0x00 TTL=126 ID=3 PROTO=TCP SPT=443 DPT=36532 WINDOW=64240 RES=0x00 ACK RST URGP=0 
+Jul 14 17:31:38 Babayaga kernel: workqueue: delayed_fput hogged CPU for >13333us 4 times, consider switching to WQ_UNBOUND
