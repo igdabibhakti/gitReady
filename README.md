@@ -8,6 +8,10 @@ DevCard adalah halaman kartu profil kelompok interaktif untuk studi kasus Worksh
 
 Jalankan proyek secara lokal dengan langkah pada bagian [How to Run](#how-to-run) untuk melihat dan mencoba seluruh interaksi halaman.
 
+![Screenshot](git-ready.png)
+
+Live Demo: https://git-ready-psi.vercel.app/
+
 ---
 
 ## Tech Stack
