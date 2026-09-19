@@ -1,16 +1,12 @@
-# GitReady
+# GitReady — DevCard
 
-DevCard adalah halaman kartu profil interaktif dengan fitur dark mode dan like counter, dibuat sebagai study case Workshop Git & GitHub.
+DevCard adalah halaman kartu profil kelompok interaktif untuk studi kasus Workshop Git & GitHub. Halaman ini menampilkan profil tiga anggota, mendukung pergantian tema, dan menyediakan penghitung like terpisah untuk setiap anggota.
 
 ---
 
 ## Visualisasi
 
-<!-- Tempel screenshot tampilan halaman di sini, atau link demo (misalnya GitHub Pages).-->
-
-![Screenshot](link-screenshot-kamu.png)
-
-Live Demo: [link-demo-jika-ada](#)
+Jalankan proyek secara lokal dengan langkah pada bagian [How to Run](#how-to-run) untuk melihat dan mencoba seluruh interaksi halaman.
 
 ---
 
@@ -25,12 +21,13 @@ Live Demo: [link-demo-jika-ada](#)
 
 ## Fitur Utama
 
-- [ ] Toggle Dark Mode
-- [ ] Like Counter interaktif
-- [ ] Responsive layout
+- [x] Navigasi profil tiga anggota
+- [x] Toggle Dark Mode
+- [x] Like Counter interaktif untuk setiap anggota
+- [x] Responsive layout untuk desktop dan perangkat mobile
+- [x] Informasi per anggota berupa nama, role, foto, deskripsi, dan skill
 
 ---
-
 
 ## Contribution
 
@@ -45,17 +42,40 @@ Live Demo: [link-demo-jika-ada](#)
 ## How to Run
 
 1. Clone repository ini:
+
    ```bash
-   git clone <url-repo-kalian>
+   git clone https://github.com/igdabibhakti/gitReady.git
    ```
-2. Buka folder hasil clone, lalu klik dua kali file `index.html` (atau klik kanan → Open with → Browser).
+
+2. Masuk ke folder proyek:
+
+   ```bash
+   cd gitReady
+   ```
+
+3. Buka `index.html` menggunakan browser.
+
+Proyek ini tidak memerlukan instalasi dependency atau proses build.
+
+---
+
+## Struktur Project
+
+```text
+gitReady/
+├── index.html   # Struktur dan konten halaman
+├── style.css    # Tampilan, dark mode, dan responsive layout
+├── script.js    # Data anggota dan interaksi halaman
+└── README.md    # Dokumentasi project
+```
+
+---
 
 ## Feature Improvement
 
-Ide pengembangan lanjutan jika project ini dilanjutkan, misalnya:
+Ide pengembangan lanjutan:
 
-- Menyimpan status like counter ke `localStorage`
-- Menambahkan animasi transisi
-- Membuat halaman menjadi responsive penuh untuk mobile
-- Deploy otomatis via GitHub Actions ke GitHub Pages
-
+- Menyimpan tema dan jumlah like ke `localStorage`
+- Mengganti data serta foto placeholder dengan profil anggota kelompok
+- Menambahkan animasi transisi saat profil berganti
+- Mengaktifkan deployment otomatis ke GitHub Pages
